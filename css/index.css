@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+body {
+    background:url("../images/bg.jpg");
+}
