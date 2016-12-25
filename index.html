@@ -12,7 +12,7 @@
     .test{height: 600px; max-width: 600px; font-size: 40px;}
 </style>
 <div class="test">
-    <a href="http://mp.weixin.qq.com/mp/redirect?url=http://mobile.xinlianwang.com/android/distributor/DistributorApp.apk#weixin.qq.com#wechat_redirect ">有效跳转</a>
+    <h2 id="tips">这个地方的图片我用的半透明的</h2>
 </div>
 <script type="text/javascript">
     function is_weixin() {
@@ -28,7 +28,7 @@
     function loadHtml(){
         var div = document.createElement('div');
         div.id = 'weixin-tip';
-        div.innerHTML = '<p><img src="live_weixin.png" alt="微信打开"/></p>';
+        div.innerHTML = '<p><img src="live_weixin.jpg" alt="微信打开"/></p>';
         document.body.appendChild(div);
     }
 
