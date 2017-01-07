@@ -2,32 +2,31 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>-->
+    <meta name="viewport" content="height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
     <title>下载App</title>
-    <style type="text/css">
-        body{margin:0 auto;padding: 0;}
-        img{max-width: 100%; height: auto;margin: 0 auto;text-align: center;}
-        #bg{position: relative}
+    <style type="text/css"  >
+        body{margin:0 auto;}
+        img{ height:100%;margin: 0 auto;text-align: center;}
+        #bg{position: relative;background-color: black;}
         #ios{position:absolute;
             bottom:48%;
-            left:25%;}
+            left:28px;}
         #android{position:absolute;
             bottom:48%;
-            right:25%;}
+            left:45%;}
     </style>
 </head>
 
 <body>
     <div id="bg" align="center">
-        <img src="wangye2.jpg" style="max-width:100%;" width="90%" />
+        <img src="wangye2.jpg" />
         <div id="ios">
-            <img src="ios4.png" style="max-width:25%;" width="25%" onclick=window.location.href="https://itunes.apple.com/cn/app/id790656910">
+            <img src="ios4.png" style="max-width:30%;" width="25%" onclick=window.location.href="https://itunes.apple.com/cn/app/id790656910">
         </div>
         <div id="android">
-            <img src="android4.png" style="max-width:25%;" width="25%" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
+            <img src="android4.png" style="max-width:30%;" width="25%" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
         </div>
     </div>
 
 </body>
-
 </html>
