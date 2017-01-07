@@ -9,23 +9,21 @@
         img{max-width: 100%; height: auto;margin: 0 auto;text-align: center;}
         #bg{position: relative;background-color: black;height: 100%}
         #ios{position:absolute;
+            width: 10%;
             bottom:48%;
-            left:28px;}
+            left:36%;}
         #android{position:absolute;
+            width: 10%;
             bottom:48%;
-            left:45%;}
+            left:54%;}
     </style>
 </head>
 
 <body>
     <div id="bg" align="center">
         <img src="wangye2.jpg" style="max-height:100%;" />
-        <div id="ios">
-            <img src="ios4.png" style="max-width:30%;" width="25%" onclick=window.location.href="https://itunes.apple.com/cn/app/id790656910">
-        </div>
-        <div id="android">
-            <img src="android4.png" style="max-width:30%;" width="25%" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
-        </div>
+            <img id="ios" src="ios4.png" onclick=window.location.href="https://itunes.apple.com/cn/app/id790656910">
+            <img id="android" src="android4.png" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
     </div>
 
 </body>
