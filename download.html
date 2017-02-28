@@ -2,24 +2,31 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
     <title>下载App</title>
     <style type="text/css">
-        body{margin:0 auto;padding: 0;height: 100%}
+        body{margin:0 auto;padding: 0;}
         img{max-width: 100%; height: auto;margin: 0 auto;text-align: center;}
-        #bg{position: relative;}
-        #android{position:absolute;
-            width: 12%;
+        #bg{position: relative}
+        #ios{position:absolute;
             bottom:48%;
-            left:44%;}
+            left:25%;}
+        #android{position:absolute;
+            bottom:48%;
+            right:25%;}
     </style>
 </head>
 
 <body>
-    <div id="bg" align="center">
-        <img src="wangye2.jpg" style="max-height:100%;" />
-            <img id="android" src="android4.png" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
+<div id="bg" align="center">
+    <img src="wangye2.jpg" style="max-width:100%;" width="90%" />
+    <div id="ios">
+        <img src="ios4.png" style="max-width:30%;" width="30%" height="30%" onclick=window.location.href="https://itunes.apple.com/us/app/ar%E6%B5%B7%E8%A5%BF/id1193067571?mt=8">
     </div>
+    <div id="android">
+        <img src="android4.png" style="max-width:30%;" width="30%" height="30%" onclick=window.location.href="https://raw.githubusercontent.com/JosephTF/TimeMemory/master/bin/TimeMemory.apk">
+    </div>
+</div>
 
 </body>
 
